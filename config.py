@@ -14,19 +14,19 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹𝐌ᴀʜᴇsʜ⟅ ✘ 𝐌ᴜsɪᴄ˼")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐒ʜɪᴠᴀɴɪ  ꭙ 𝐌ᴜsɪᴄ")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1362133845").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/taitangamer/anonx")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/silent1143/anonx")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/taitanoffice")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/THEYSTOPPAGE")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+BEY9Iyz4hQNiYzM1")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,18 +76,18 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/5e75b4b834de52eab008b.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/705d320ef81731f1d1016.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    ""
+    "https://telegra.ph/file/705d320ef81731f1d1016.jpg"
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 
-GLOBAL_IMG_URL = "https://telegra.ph/file/5f446488a6f7d06c9cfbe.jpg"
+GLOBAL_IMG_URL = "https://telegra.ph/file/705d320ef81731f1d1016.jpg"
 
-STATS_IMG_URL = "https://te.legra.ph/file/5e75b4b834de52eab008b.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/705d320ef81731f1d1016.jpg"
 
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = ""
+            PING_IMG_URL = "https://telegra.ph/file/705d320ef81731f1d1016.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/5e75b4b834de52eab008b.jpg"
+            START_IMG_URL = "https://telegra.ph/file/705d320ef81731f1d1016.jpg"
