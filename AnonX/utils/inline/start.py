@@ -9,7 +9,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐀dd 𝐓αɪᴛαи 𝐌υ𝗌𝗂ç 𝐈𐓣 𝐆ʀσup",
+                text="𝐀dd 𝐒ʜɪᴠᴀɴɪ 𝐌υ𝗌𝗂ç 𝐈𐓣 𝐆ʀσup",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
@@ -30,7 +30,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐀dd 𝐓αɪᴛαи 𝐌υ𝗌𝗂ç 𝐈𐓣 𝐆ʀσup",
+                text="𝐀dd 𝐒ʜɪᴠᴀɴɪ 𝐌υ𝗌𝗂ç 𝐈𐓣 𝐆ʀσup",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
@@ -39,7 +39,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text=" 𝑯𝒆𝒍𝒑 ", callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="𝐓αɪᴛαи 𝐌υ𝗌𝗂ç", url=f"https://music.apple.com/"
+                text="𝐒ʜɪᴠᴀɴɪ 𝐌υ𝗌𝗂ç", url=f"https://music.apple.com/"
             )
         ],
      ]
